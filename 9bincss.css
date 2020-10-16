@@ -116,7 +116,7 @@ body {
   width: 100%;
   width: 100vw;
   height: 100%;
-  height: 80vw;
+  height: 100vw;
   background-color: white;
   position: absolute;
   top: 25vw;
@@ -133,7 +133,7 @@ body {
 }
 .innertext {
   width: 100%;
-  height: 10vw;
+  height: 100%;
   margin-top: 5vw;
   color: #000;
 }
@@ -227,4 +227,52 @@ body {
   font-family: "BenchNine", sans-serif;
 }
 .slide.active .center h1 {
+}
+.gal {
+  clear: both;
+  display: inline-block;
+}
+.gal h4 {
+  margin-top: 6vw;
+}
+.innertext ul li {
+  float: left;
+}
+.innertext ul li img {
+  width: 22vw;
+  height: 40vh;
+  margin: 1vw;
+}
+.major {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.major h4 {
+  margin-top: 6vw;
+}
+.major li {
+  flex-direction: column;
+}
+.major ul {
+  margin-left: 12vw;
+}
+footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 10vw;
+
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 37%;
+}
+footer i {
+  font-size: 3vw;
+  color: #7594f0;
+  margin: 3vw;
+}
+footer a {
+  width: 100%;
+  height: 100%;
 }
