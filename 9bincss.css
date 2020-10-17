@@ -1,46 +1,3 @@
-/* -----mobile------ */
-
-@media screen and (max-width: 920px) {
-  .innertext ul li img {
-    width: 40vw;
-    margin-left: 1vw;
-    text-align: center;
-  }
-  .major ul {
-    margin: 0;
-  }
-  .center h1 {
-    font-size: 5vw;
-  }
-  .innertext {
-    font-size: 2vw;
-  }
-  .slide .top,
-  .slide .bottom {
-    content: attr(data-back);
-    position: absolute;
-    font-size: 25vh;
-    font-weight: 800;
-    height: 50vh;
-    width: 100vw;
-    text-align: center;
-    z-index: 1;
-    overflow: hidden;
-    box-sizing: border-box;
-    transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-    transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-    transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865),
-      -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
-  }
-  section {
-    bottom: 30%;
-  }
-  section i {
-    font-size: 3.5vw;
-  }
-}
-
-/* ---------web--------- */
 html {
   font-size: 1vh;
 }
@@ -269,7 +226,6 @@ body {
   line-height: 1;
   font-family: "BenchNine", sans-serif;
 }
-
 .gal {
   clear: both;
   display: inline-block;
@@ -314,4 +270,46 @@ section i {
   font-size: 3vw;
   color: #7594f0;
   margin: 3vw;
+}
+
+/* -----mobile------ */
+
+@media screen and (max-width: 920px) {
+  .innertext ul li img {
+    width: 40vw;
+    margin-left: 1vw;
+    text-align: center;
+  }
+  .major ul {
+    margin: 0;
+  }
+  .center h1 {
+    font-size: 5vw;
+  }
+  .innertext {
+    font-size: 2vw;
+  }
+  .slide .top,
+  .slide .bottom {
+    content: attr(data-back);
+    position: absolute;
+    font-size: 25vh;
+    font-weight: 800;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+    transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+    transition: transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865),
+      -webkit-transform 600ms cubic-bezier(1, 0.005, 0.57, 0.865);
+  }
+  section {
+    bottom: 30%;
+  }
+  section i {
+    font-size: 3.5vw;
+  }
 }
